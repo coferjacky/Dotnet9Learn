@@ -1,12 +1,18 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Threading;
 using _166Destructor;
 
-//Console.WriteLine("Hello, World!");
-Sample sample = new Sample();
-sample.DisplayDate();
-sample = null; // 将对象置为不可达\
+Console.WriteLine("方法1: 使用WeakReference确保对象被GC回收");
+WeakReference<Sample> weakRef = CreateSample();
 GC.Collect();
 GC.WaitForPendingFinalizers();
-Console.WriteLine("等待析构函数执行...");
-Thread.Sleep(1000); // 添加延迟，观察析构函数是否被调用
-//Console.ReadKey();
+
+
+Console.WriteLine("程序结束");
+
+WeakReference<Sample> CreateSample()
+{
+    var sample = new Sample();
+    sample.DisplayDate();
+    return new WeakReference<Sample>(sample);
+}
