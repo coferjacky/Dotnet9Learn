@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "172MultiCastDelegates", "17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "173EventExample", "173EventExample\173EventExample.csproj", "{4DD63832-5844-4ADD-8B14-E328D1BE2B7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "174AutoImplementedEvents", "174AutoImplementedEvents\174AutoImplementedEvents.csproj", "{3088D778-ACE8-4913-BA93-59D0B72831A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4DD63832-5844-4ADD-8B14-E328D1BE2B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DD63832-5844-4ADD-8B14-E328D1BE2B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DD63832-5844-4ADD-8B14-E328D1BE2B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3088D778-ACE8-4913-BA93-59D0B72831A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3088D778-ACE8-4913-BA93-59D0B72831A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3088D778-ACE8-4913-BA93-59D0B72831A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3088D778-ACE8-4913-BA93-59D0B72831A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
