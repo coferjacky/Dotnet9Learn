@@ -3,9 +3,21 @@ using System.Linq.Expressions;
 
 Console.WriteLine("Hello, World!");
 
-Expression<Func<int,int>> e=x=>x*x;
-Func<int,int> mydelegates=e.Compile();
+Student s=new Student() { Id=11,Age=18,Name="co2"};
 
 
+Expression<Func<Student,bool>> e=s=>s.Age<20 && s.Age>12;
+Func<Student,bool> mydelegates=e.Compile();
 
-Console.WriteLine(mydelegates.Invoke(10)); 
+
+//
+Console.WriteLine(mydelegates.Invoke(s));
+
+
+class Student
+{
+    public int Id { get; set; }
+    public int Age { get; set; }
+    public string Name { get; set; }
+
+}
