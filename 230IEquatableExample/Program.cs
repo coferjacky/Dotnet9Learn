@@ -117,6 +117,7 @@ public class CustomersList : IList<Customer>
     {
         //如果Customer实现IEquatable,则可以自己实现Equal方法中匹配对应属性 视为相同对象，否则就用内置的Contains
         //这一切都是系统自动完成
+        //不实现IEquatable,则Contains方法只会比较引用地址
         return customers.Contains(item);
     }
 
