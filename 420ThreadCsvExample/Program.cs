@@ -37,7 +37,7 @@ namespace _420ThreadCsvExample
                         Thread thread = new Thread(() =>{
                             invokeDataProcessor(chunkName,chunkCopy);
                         });
-                        threadCount++;
+                        
                         threads.Add(thread);
                         
                         thread.Start();
@@ -45,6 +45,22 @@ namespace _420ThreadCsvExample
                         chunk.Clear();
                     };
                 }
+
+                if (chunk.Count > 0)
+                {
+                    //建立线程名称
+                    string chunkName = $"Chunk {threadCount}";
+                    threadCount++;
+                    Thread thread = new Thread(() => {
+                        invokeDataProcessor(chunkName, chunk);
+                    });
+
+                    threads.Add(thread);
+
+                    thread.Start();
+                }
+
+
                 foreach (Thread thread in threads)
                 {
                     thread.Join();
@@ -64,8 +80,17 @@ namespace _420ThreadCsvExample
             Console.WriteLine($"Processing {dataProcessor.ChunkName} of size {chunk.Count}");
             dataProcessor.ProcessChunk();
             //打印
-            Console.WriteLine($"Processed {dataProcessor.ChunkName} of size:{dataProcessor.ChunkName}");
+            Console.WriteLine($"Processed {dataProcessor.ChunkName} of size:{chunk.Count}");
 
+            lock (Shared.LockObject)
+            {
+                Console.WriteLine($"Processed {dataProcessor.ChunkName} of size {chunk.Count}");
+                foreach (var gender in dataProcessor.GenderCounts)
+                {
+                    Console.WriteLine($"{ gender.Key}:{ gender.Value}");
+                }
+            }
+            Console.WriteLine();
         }
     }
 }

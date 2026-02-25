@@ -30,9 +30,10 @@ namespace _420ThreadCsvExample
                         GenderCounts.Add(gender,1);
                   }
                 }
-                
+                //模拟人为延迟
+                Thread.Sleep(100 * new Random().Next(2, 5));
             }
-            Thread.Sleep(100*new Random().Next(2,5));
+            
             
         }
     }
