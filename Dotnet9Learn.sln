@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "418ConcurrentQueueExample",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "420ThreadCsvExample", "420ThreadCsvExample\420ThreadCsvExample.csproj", "{A9AAEFE3-C45A-480F-BB3E-8BC0B56C3DBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "424SemaphoreDemo", "424SemaphoreDemo\424SemaphoreDemo.csproj", "{38825294-B627-4A07-8DD6-942AEFD8C142}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{A9AAEFE3-C45A-480F-BB3E-8BC0B56C3DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9AAEFE3-C45A-480F-BB3E-8BC0B56C3DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9AAEFE3-C45A-480F-BB3E-8BC0B56C3DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38825294-B627-4A07-8DD6-942AEFD8C142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38825294-B627-4A07-8DD6-942AEFD8C142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38825294-B627-4A07-8DD6-942AEFD8C142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38825294-B627-4A07-8DD6-942AEFD8C142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
