@@ -107,6 +107,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "420ThreadCsvExample", "420T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "424SemaphoreDemo", "424SemaphoreDemo\424SemaphoreDemo.csproj", "{38825294-B627-4A07-8DD6-942AEFD8C142}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "425MutexDemo", "425MutexDemo\425MutexDemo.csproj", "{07814DCA-78E1-4D29-AA55-7AD5EA69D68F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -321,6 +323,10 @@ Global
 		{38825294-B627-4A07-8DD6-942AEFD8C142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38825294-B627-4A07-8DD6-942AEFD8C142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38825294-B627-4A07-8DD6-942AEFD8C142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07814DCA-78E1-4D29-AA55-7AD5EA69D68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07814DCA-78E1-4D29-AA55-7AD5EA69D68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07814DCA-78E1-4D29-AA55-7AD5EA69D68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07814DCA-78E1-4D29-AA55-7AD5EA69D68F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
