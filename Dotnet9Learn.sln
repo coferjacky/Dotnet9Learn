@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "424SemaphoreDemo", "424Sema
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "425MutexDemo", "425MutexDemo\425MutexDemo.csproj", "{07814DCA-78E1-4D29-AA55-7AD5EA69D68F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "426ThreadPoolExample", "426ThreadPoolExample\426ThreadPoolExample.csproj", "{26CBFF36-2359-44C9-8B55-06FCEC0599C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -327,6 +329,10 @@ Global
 		{07814DCA-78E1-4D29-AA55-7AD5EA69D68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07814DCA-78E1-4D29-AA55-7AD5EA69D68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07814DCA-78E1-4D29-AA55-7AD5EA69D68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CBFF36-2359-44C9-8B55-06FCEC0599C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CBFF36-2359-44C9-8B55-06FCEC0599C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CBFF36-2359-44C9-8B55-06FCEC0599C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CBFF36-2359-44C9-8B55-06FCEC0599C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

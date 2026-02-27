@@ -21,6 +21,7 @@ namespace _425MutexDemo
             mutex = new Mutex();
             FilePath = "data.csv";
             ChunkSize = 100;
+            MaxConcurrency = 3;
         }
     }
 }
