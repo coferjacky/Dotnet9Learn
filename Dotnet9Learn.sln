@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "425MutexDemo", "425MutexDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "426ThreadPoolExample", "426ThreadPoolExample\426ThreadPoolExample.csproj", "{26CBFF36-2359-44C9-8B55-06FCEC0599C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "427CountDownEvent", "427CountDownEvent\427CountDownEvent.csproj", "{D964A543-455A-4F12-9577-EAB4F5AE26A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{26CBFF36-2359-44C9-8B55-06FCEC0599C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26CBFF36-2359-44C9-8B55-06FCEC0599C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26CBFF36-2359-44C9-8B55-06FCEC0599C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D964A543-455A-4F12-9577-EAB4F5AE26A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D964A543-455A-4F12-9577-EAB4F5AE26A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D964A543-455A-4F12-9577-EAB4F5AE26A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D964A543-455A-4F12-9577-EAB4F5AE26A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
