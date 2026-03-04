@@ -1,5 +1,32 @@
 ﻿
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
+
+
+Stopwatch sw=new Stopwatch();
+
+
+//Tasks
+sw.Start();
+WithTasks();
+sw.Stop();
+
+long timeTakenForTasks=sw.ElapsedMilliseconds;
+
+Console.WriteLine($"\nTasks - Time Taken {timeTakenForTasks} ms");
+
+
+//Threads
+
+sw.Restart();
+WithThreads();
+sw.Stop();
+
+long timeTakenForThreads = sw.ElapsedMilliseconds;
+
+Console.WriteLine($"\nThreads - Time Taken {timeTakenForThreads} ms");
+
+Console.ReadKey();
 
 static void WithTasks()
 {
@@ -28,8 +55,7 @@ static void WithTasks()
 
     //等待两个任务完成 才开始往后执行
     countdownEvent.Wait();
-    //上面代码Task.Run()方法会立即执行委托中的代码，并返回一个Task对象并自动启动它，你省去了调用Start()方法的麻烦。
-    Console.ReadKey();
+  
 
 }
 
@@ -58,10 +84,12 @@ static void WithThreads()
         countdownEvent.Signal();
     });
 
+    thread1.Start();
+    thread2.Start();
+
     //等待两个任务完成 才开始往后执行
     countdownEvent.Wait();
-    //上面代码Task.Run()方法会立即执行委托中的代码，并返回一个Task对象并自动启动它，你省去了调用Start()方法的麻烦。
-    Console.ReadKey();
+   
 
 }
 

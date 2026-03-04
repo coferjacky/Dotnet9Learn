@@ -117,6 +117,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "434TaskExample", "434TaskEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "435StopWatchExample", "435StopWatchExample\435StopWatchExample.csproj", "{9DCCC3FF-3C6F-4CE9-A25B-CD98390BD7CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "436TaskFactoryStartNew", "436TaskFactoryStartNew\436TaskFactoryStartNew.csproj", "{AF1594FD-F3B6-4BD5-A891-4815FF6DAA86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "437TaskWaitExample", "437TaskWaitExample\437TaskWaitExample.csproj", "{1829E090-72F6-42B1-B0B3-0B1FA133DE4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +360,14 @@ Global
 		{9DCCC3FF-3C6F-4CE9-A25B-CD98390BD7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DCCC3FF-3C6F-4CE9-A25B-CD98390BD7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DCCC3FF-3C6F-4CE9-A25B-CD98390BD7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1594FD-F3B6-4BD5-A891-4815FF6DAA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1594FD-F3B6-4BD5-A891-4815FF6DAA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1594FD-F3B6-4BD5-A891-4815FF6DAA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1594FD-F3B6-4BD5-A891-4815FF6DAA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1829E090-72F6-42B1-B0B3-0B1FA133DE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1829E090-72F6-42B1-B0B3-0B1FA133DE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1829E090-72F6-42B1-B0B3-0B1FA133DE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1829E090-72F6-42B1-B0B3-0B1FA133DE4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
