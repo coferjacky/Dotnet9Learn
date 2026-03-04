@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "427CountDownEvent", "427Cou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "434TaskExample", "434TaskExample\434TaskExample.csproj", "{5663CCB0-1403-4D97-B3DE-D0F8421F569F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "435StopWatchExample", "435StopWatchExample\435StopWatchExample.csproj", "{9DCCC3FF-3C6F-4CE9-A25B-CD98390BD7CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,10 @@ Global
 		{5663CCB0-1403-4D97-B3DE-D0F8421F569F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5663CCB0-1403-4D97-B3DE-D0F8421F569F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5663CCB0-1403-4D97-B3DE-D0F8421F569F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCCC3FF-3C6F-4CE9-A25B-CD98390BD7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCCC3FF-3C6F-4CE9-A25B-CD98390BD7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCCC3FF-3C6F-4CE9-A25B-CD98390BD7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCCC3FF-3C6F-4CE9-A25B-CD98390BD7CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
