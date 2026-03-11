@@ -140,6 +140,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "444TaskExceptionThrowExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "447TaskCancelExample", "447TaskCancelExample\447TaskCancelExample.csproj", "{7549393F-B524-499C-B925-BD1FE5189835}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "448FileIOExample", "448FileIOExample\448FileIOExample.csproj", "{8E67CC97-AE12-4229-B143-6B62A83FF487}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -410,6 +412,10 @@ Global
 		{7549393F-B524-499C-B925-BD1FE5189835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7549393F-B524-499C-B925-BD1FE5189835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7549393F-B524-499C-B925-BD1FE5189835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E67CC97-AE12-4229-B143-6B62A83FF487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E67CC97-AE12-4229-B143-6B62A83FF487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E67CC97-AE12-4229-B143-6B62A83FF487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E67CC97-AE12-4229-B143-6B62A83FF487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
