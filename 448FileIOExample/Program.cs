@@ -50,7 +50,7 @@
         {
             StreamReader reader = new StreamReader(fileName);
 
-            //返回task对象，表示异步读取操作的状态和结果
+            //返回task对象，表示异步读取操作的状态和结果 
             Task<string> readerTask = reader.ReadToEndAsync();
 
             reader.Close();
