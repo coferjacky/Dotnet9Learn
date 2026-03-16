@@ -142,6 +142,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "447TaskCancelExample", "447
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "448FileIOExample", "448FileIOExample\448FileIOExample.csproj", "{8E67CC97-AE12-4229-B143-6B62A83FF487}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "452AsyncAwaitExample", "452AsyncAwaitExample\452AsyncAwaitExample.csproj", "{5A2E7246-E708-4E5B-AB41-3CFAA062AF9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -416,6 +418,10 @@ Global
 		{8E67CC97-AE12-4229-B143-6B62A83FF487}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E67CC97-AE12-4229-B143-6B62A83FF487}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E67CC97-AE12-4229-B143-6B62A83FF487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2E7246-E708-4E5B-AB41-3CFAA062AF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2E7246-E708-4E5B-AB41-3CFAA062AF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2E7246-E708-4E5B-AB41-3CFAA062AF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2E7246-E708-4E5B-AB41-3CFAA062AF9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
