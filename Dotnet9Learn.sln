@@ -144,6 +144,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "448FileIOExample", "448File
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "452AsyncAwaitExample", "452AsyncAwaitExample\452AsyncAwaitExample.csproj", "{5A2E7246-E708-4E5B-AB41-3CFAA062AF9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "454AsyncAwaitClearExample", "454AsyncAwaitClearExample\454AsyncAwaitClearExample.csproj", "{F2933B6A-E773-413D-8FD6-B05EBA1BAF3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -422,6 +424,10 @@ Global
 		{5A2E7246-E708-4E5B-AB41-3CFAA062AF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A2E7246-E708-4E5B-AB41-3CFAA062AF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A2E7246-E708-4E5B-AB41-3CFAA062AF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2933B6A-E773-413D-8FD6-B05EBA1BAF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2933B6A-E773-413D-8FD6-B05EBA1BAF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2933B6A-E773-413D-8FD6-B05EBA1BAF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2933B6A-E773-413D-8FD6-B05EBA1BAF3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

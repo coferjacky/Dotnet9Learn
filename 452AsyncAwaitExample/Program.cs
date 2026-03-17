@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public async static Task Main(string[] args)
         {
             string fileName = @"c:\code\test.txt";
             FileWriter fileWriter = new FileWriter();
@@ -18,7 +18,7 @@
 
             //读取文件内容
             Task<string> readerTask = fileReader.ReadFile(fileName);
-            readerTask.Wait(); //等待读取操作完成,当前主线程被阻塞，直到读取完成
+            await readerTask; //等待读取操作完成,当前主线程被阻塞，直到读取完成
             Console.WriteLine("File read done");
 
 
