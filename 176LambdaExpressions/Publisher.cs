@@ -20,24 +20,13 @@ namespace _176LambdaExpressions
 
         //step 1 创建事件
         public event MyDelegateType MyEvent;
-        /*{
-            add //方法在添加事件处理方法时调用
-            {
-                myDelegate += value; 
-            }
-            remove //方法在移除事件处理方法时调用
-            {
-                myDelegate -= value;
-            }
-            
-        }*/
-
+        
         public int RaiseEvent(int a, int b)
         {
             //step 2 同一类中，调用事件（不能在其他类中触发事件）
             if (MyEvent != null)
             {
-                return this.MyEvent(10, 39);
+                return this.MyEvent(a, b);
             }
             else
             {

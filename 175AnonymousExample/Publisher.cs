@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _175AnonymousExample
 {
-    //第一步 定义委托类型
+    //第一步 定义委托类型,返回类型定义了void
     public delegate void MyDelegateType(int a, int b);
     //发布者
     internal class Publisher
@@ -37,7 +37,7 @@ namespace _175AnonymousExample
             //step 2 同一类中，调用事件（不能在其他类中触发事件）
             if (MyEvent != null)
             {
-                this.MyEvent(10, 39);
+                this.MyEvent(a, b);
             }
         }
     }
