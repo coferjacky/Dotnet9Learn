@@ -24,33 +24,44 @@ student2.Email = "scott1@gmail.com";
 //one to one relation
 //student.Branch= br;
 
-student.Branch=new Branch();
-student.Branch.BranchName = "english";
-student.Branch.NoOfSemesters = 13;
-student.Examination=new List<Examination>();
-student.Examination.Add(new Examination() { ExaminationName="Math",MaxMarks=100,Month=12,Year=2000,SecuredMarks=89});
+/*Branch br=new Branch();
+br.BranchName = "Computer Science Engineering";
+br.NoOfSemesters = 8;
+student.Branch= br;*/
+//1对1
+student.branch=new Branch();
+student.branch.BranchName = "english";
+student.branch.NoOfSemesters = 13;
+Console.WriteLine(student.branch.BranchName + " " + student.branch.NoOfSemesters);
 
-student.Examination.Add(new Examination() { ExaminationName = "Chinese", MaxMarks = 100, Month = 3, Year = 2001, SecuredMarks = 89 });
 
-student.Examination.Add(new Examination() { ExaminationName = "Chinese-2", MaxMarks = 100, Month = 3, Year = 2004, SecuredMarks = 67});
+//1对多关系
+student.examinations=new List<Examination>();
+//添加三个科目及分数
+student.examinations.Add(new Examination() { ExaminationName="Math",MaxMarks=100,Month=12,Year=2000,SecuredMarks=89});
 
+student.examinations.Add(new Examination() { ExaminationName = "Chinese", MaxMarks = 100, Month = 3, Year = 2001, SecuredMarks = 89 });
 
+student.examinations.Add(new Examination() { ExaminationName = "Chinese-2", MaxMarks = 100, Month = 3, Year = 2004, SecuredMarks = 67});
 
 Console.WriteLine(student.RollNo);
 Console.WriteLine(student.StudentName);
 Console.WriteLine(student.Email);
-Console.WriteLine(student.Branch.BranchName + " " +student.Branch.NoOfSemesters );
-//多对一
-
-Grade grade = new Grade() { GradeId=1,GradeName="grade11" };
-student.Grade = grade;
-student2.Grade = grade;
-
-
+Console.WriteLine(student.branch.BranchName + " " +student.branch.NoOfSemesters );
 Console.WriteLine("-------学生考试课程明细（one to many）---------");
-foreach (Examination item in student.Examination)
+foreach (Examination item in student.examinations)
 {
-    Console.WriteLine(item.ExaminationName+" / "+item.MaxMarks+" / "+item.Year+" / "+item.Month+" / "+item.SecuredMarks);
+    Console.WriteLine(item.ExaminationName + " / " + item.MaxMarks + " / " + item.Year + " / " + item.Month + " / " + item.SecuredMarks);
 }
+
+
+//多对一
+Grade grade = new Grade() { GradeId=1,GradeName="grade11" };
+student.grade = grade;
+student2.grade = grade;
+
+Console.WriteLine("第一个学生");
+Console.WriteLine("学生ID:"+student.RollNo+"，学生姓名:"+student.StudentName+",学生年级ID："+student.grade.GradeId+ ",学生年级名称：" + student.grade.GradeName);
+
 
 

@@ -12,7 +12,7 @@ namespace _222ObjectRelations
     /// </summary>
     internal class Examination
     {
-
+        //1对多关系
         public string ExaminationName {  get; set; }
         public int Month {  get; set; } 
         public int Year {  get; set; }

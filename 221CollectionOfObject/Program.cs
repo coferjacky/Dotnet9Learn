@@ -19,7 +19,7 @@ do
     Console.WriteLine("enter price");
     double unitPrice = double.Parse( Console.ReadLine());
 
-    Console.WriteLine("enter date of manufacture:");
+    Console.WriteLine("enter date of manufacture(yyyy-MM-dd):");
     DateTime dom = DateTime.Parse(Console.ReadLine());
 
     Product product = new Product() {ProductId=pid,ProductName=pname,Price=unitPrice, DateOfManufacture=dom };
@@ -37,8 +37,8 @@ do
 
 }while (choice!="No"&&choice!="no"&&choice!="n" && choice !="N");
 
-
+Console.WriteLine("\n");
 foreach(Product item in products)
 {
-    Console.WriteLine(item.ProductName);
+    Console.WriteLine(item.ProductName+","+item.DateOfManufacture.ToShortTimeString);
 }

@@ -13,11 +13,13 @@ namespace _222ObjectRelations
 
         public string Email {  get; set; }
 
-        public Branch Branch { get; set; }
+        //1对1关系
+        public Branch branch { get; set; }
 
-        public List<Examination> Examination { get; set; }
+        //1对多关系
+        public List<Examination> examinations { get; set; }
 
-        public Grade Grade { get; set; }
+        public Grade grade { get; set; }
 
 
     }

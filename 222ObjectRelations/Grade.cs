@@ -8,8 +8,9 @@ namespace _222ObjectRelations
 {
     internal class Grade
     {
+        //年纪 ，多对1功能
         public int GradeId {  get; set; }
 
-        public int GradeName { get; set; }
+        public string GradeName { get; set; }
     }
 }
