@@ -158,6 +158,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "400MyReflectionDemo", "400M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "214Dictionary", "214Dictionary\214Dictionary.csproj", "{C4567937-FBD6-42B8-A9F3-402E028A0B76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "114Interface", "114Interface\114Interface.csproj", "{28D8561D-A545-4471-B1D6-A0453A0A1EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -464,6 +466,10 @@ Global
 		{C4567937-FBD6-42B8-A9F3-402E028A0B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4567937-FBD6-42B8-A9F3-402E028A0B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4567937-FBD6-42B8-A9F3-402E028A0B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D8561D-A545-4471-B1D6-A0453A0A1EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D8561D-A545-4471-B1D6-A0453A0A1EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D8561D-A545-4471-B1D6-A0453A0A1EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D8561D-A545-4471-B1D6-A0453A0A1EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
